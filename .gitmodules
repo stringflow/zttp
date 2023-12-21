@@ -1,0 +1,4 @@
+[submodule "dependencies/mustache-zig"]
+	path = dependencies/mustache-zig
+	url = https://github.com/batiati/mustache-zig
+	branch = stage3

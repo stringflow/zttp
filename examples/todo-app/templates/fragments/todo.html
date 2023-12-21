@@ -1,0 +1,10 @@
+<li class="py-4">
+    <div class="flex items-center">
+        <input name="id" value="{{index}}" type="checkbox"
+            class="h-4 w-4 text-teal-600 focus:ring-teal-500 border-gray-300 rounded"
+            hx-post="/removeTodo" hx-target="#todo-list">
+        <label for="todo1" class="ml-3 block text-gray-900">
+            <span class="text-lg font-medium">{{text}}</span>
+        </label>
+    </div>
+</li>
